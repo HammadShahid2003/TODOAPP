@@ -42,7 +42,7 @@ public class TaskAdapter extends ArrayAdapter<Task> {
         taskCheckBox.setOnCheckedChangeListener(null);
         taskCheckBox.setOnCheckedChangeListener((buttonView, isChecked) -> {
             task.setCompleted(isChecked);
-            TaskManager.getInstanceCompleted().add(task);
+            TaskClass.getInstanceCompleted().add(task);
             tasks.remove(position);
             Toast.makeText(context, task.getName()+" Completed", Toast.LENGTH_SHORT).show();
             notifyDataSetChanged();

@@ -91,7 +91,7 @@ public class TaskAddFragment extends Fragment {
         editTextTitle.setText("");
         editTextDescription.setText("");
         Task task=new Task(title,description,false);
-        TaskManager.addTask(task);
+        TaskClass.addTask(task);
         TaskListFragment.getTaskAdapter().notifyDataSetChanged();
         Toast.makeText(getActivity(), "Task saved", Toast.LENGTH_SHORT).show();
 

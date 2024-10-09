@@ -72,7 +72,7 @@ public class TaskListFragment extends Fragment {
         // Inflate the layout for this fragment
         View view= inflater.inflate(R.layout.fragment_task_list, container, false);
         listView = view.findViewById(R.id.listView);
-        taskAdapter = new TaskAdapter(getContext(), TaskManager.getInstance());
+        taskAdapter = new TaskAdapter(getContext(), TaskClass.getInstance());
         listView.setAdapter(taskAdapter);
         fabAddTask=view.findViewById(R.id.fabAddTask);
         return view;

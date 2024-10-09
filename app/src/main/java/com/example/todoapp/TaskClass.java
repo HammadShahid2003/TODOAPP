@@ -3,11 +3,11 @@ package com.example.todoapp;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TaskManager {
+public class TaskClass {
     private static List<Task> instance;
     private static List<Task> completed;
 
-    private TaskManager() {
+    private TaskClass() {
         instance = new ArrayList<>();
     }
 
