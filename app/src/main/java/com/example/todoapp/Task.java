@@ -1,4 +1,4 @@
-package com.example.todoapp.Model;
+package com.example.todoapp;
 
 public class Task
 {

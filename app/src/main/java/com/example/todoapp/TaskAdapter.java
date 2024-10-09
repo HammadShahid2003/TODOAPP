@@ -1,4 +1,4 @@
-package com.example.todoapp.Adapter;
+package com.example.todoapp;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -10,11 +10,6 @@ import android.widget.CheckBox;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.todoapp.Model.Task;
-import com.example.todoapp.Model.TaskManager;
-import com.example.todoapp.R;
-
-import java.util.ArrayList;
 import java.util.List;
 
 public class TaskAdapter extends ArrayAdapter<Task> {

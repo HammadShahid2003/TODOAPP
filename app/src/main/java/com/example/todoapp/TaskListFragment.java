@@ -9,9 +9,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
 
-import com.example.todoapp.Adapter.TaskAdapter;
-import com.example.todoapp.Model.Task;
-import com.example.todoapp.Model.TaskManager;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 /**

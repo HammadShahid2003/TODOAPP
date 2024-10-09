@@ -1,4 +1,4 @@
-package com.example.todoapp.Model;
+package com.example.todoapp;
 
 import java.util.ArrayList;
 import java.util.List;

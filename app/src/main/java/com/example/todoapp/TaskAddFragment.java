@@ -14,9 +14,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.todoapp.Model.Task;
-import com.example.todoapp.Model.TaskManager;
-
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link TaskAddFragment#newInstance} factory method to
